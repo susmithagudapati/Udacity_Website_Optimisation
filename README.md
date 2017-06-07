@@ -1,12 +1,12 @@
-###Website Performance Optimization project
+### Website Performance Optimization project
 
-##Summary
+## Summary
 
 This project required improving the performance of loading and rendering an existing portfolio site. The speed of the site was measured using Chrome dev tools and optimizations were applied.
 
-##optimise
+## Optimisation
 
-#Part 1 - Optimize PageSpeed Insights score
+# Part 1 - Optimize PageSpeed Insights score
 
 * Transfer contents of views folder to the root folder
 * Create a small version of pizzera.jpg for use in index.html
@@ -17,7 +17,7 @@ This project required improving the performance of loading and rendering an exis
 * Minify HTML
 * Optimize images
 
-#Part 2 - Optimize Frames per Second in pizza.html
+# Part 2 - Optimize Frames per Second in pizza.html
 
 * Move the document.body.scrollTop out of the loop in updatePositions
 * Set the number of pizzas to 36 in document.addEventListener('DOMContentLoaded', function()
@@ -29,7 +29,7 @@ This project required improving the performance of loading and rendering an exis
 * Move items var to avoid redefining it in updatePositions function
 * Declare movingPizzas1 variable outside the loop to avoid accessing the DOM every iteration
 
-#Part 3 - Optimize Time to Resize Pizzas in pizza.html
+# Part 3 - Optimize Time to Resize Pizzas in pizza.html
 
 * Removed determinDx function to simplify the process of the changing the size of the pizzas.
 * In the changePizzaSizes function, the randomPizzas variable was created so the querySelectorAll method only runs once outside the loop.
