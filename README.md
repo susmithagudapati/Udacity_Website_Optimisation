@@ -1,8 +1,14 @@
 ### Website Performance Optimization project
 
+## Instructions:
+
+* Clone the repo onto your machine, open index.html in your browser to see the project.
+* There are two directories in the project namely - src and dist where src directory contains the source code and dist directory contains the minified version of the src/ files.
+* As far as the project is concerned, the dist directory is to be reviewed.
+
 ## Summary
 
-This project required improving the performance of loading and rendering an existing portfolio site. The speed of the site was measured using Chrome dev tools and optimizations were applied.
+This project required improving the performance of loading and rendering an existing portfolio site. The speed of the site was measured using Chrome dev tools and optimizations are applied.
 
 ## Optimisation
 
